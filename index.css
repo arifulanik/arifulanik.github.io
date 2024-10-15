@@ -339,8 +339,8 @@ body:not(.user-is-tabbing) a:focus {
 .nav {
     display: flex;
     justify-content: flex-end;
-    padding: var(--gutter-normal) 10;
-	width: 100%;
+    padding: var(--gutter-normal) 0;
+	width: 80%;
 	background-color: black;
 	position: fixed;
 }
@@ -553,7 +553,7 @@ body:not(.user-is-tabbing) a:focus {
 .about__photo-container {
     flex: 0 0 25%; /* 25% of the container width */
     display: flex;
-    justify-content: center; /* Center the image horizontally */
+    justify-content: right; /* Center the image horizontally */
     margin-right: var(--gutter-huge); /* Adjust spacing between image and text */
 }
 
