@@ -538,6 +538,18 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 /* --------------------------------------- */
+/* ----- Custom Horizontal Bar ----- */
+/* --------------------------------------- */
+.custom-horizontal-bar {
+    border: none; /* Remove the default border */
+    height: 2px; /* Set the height of the bar */
+    background-color: #3498db; /* Set the color of the bar */
+    margin: 20px 0; /* Optional: Add some spacing around the bar */
+    width: 100%; /* Set the width of the bar (can be changed to any percentage or fixed value) */
+}
+
+
+/* --------------------------------------- */
 /* ----- About ----- */
 /* --------------------------------------- */
 
