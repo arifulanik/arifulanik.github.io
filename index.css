@@ -563,6 +563,12 @@ body:not(.user-is-tabbing) a:focus {
     border-radius: 50%; /* Make the image round */
 }
 
+@media (min-width: 901px) {
+    .about__photo-container {
+        margin-right: var(--gutter-huge); /* Ensure spacing on larger screens */
+    }
+}
+
 .about__text {
     flex: 0 0 75%; /* 75% of the container width */
 }
@@ -572,13 +578,11 @@ body:not(.user-is-tabbing) a:focus {
     color: black;
     background-color: white;
     padding: 10px;
+    border-radius: 20px;
+    
 }
 
-@media (min-width: 901px) {
-    .about__photo-container {
-        margin-right: var(--gutter-huge); /* Ensure spacing on larger screens */
-    }
-}
+
 
 /* --------------------------------------- */
 /* ----- Contact ----- */
