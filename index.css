@@ -551,6 +551,13 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+.about__photo {
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover; /* Ensure the image is properly fitted within the dimensions */
+    border-radius: 50%; /* Make the image round */
+}
+
 .about__photo-container {
     margin-bottom: var(--gutter-normal);
 }
