@@ -559,8 +559,14 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .about__photo-container {
+    flex: 0 0 25%; /* Take 25% of the space */
     margin-bottom: var(--gutter-normal);
 }
+
+.about__text {
+    flex: 0 0 75%; /* Take 75% of the space */
+}
+
 
 @media(min-width: 901px) {
     .about__text {
