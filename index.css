@@ -543,22 +543,29 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__content {
     display: flex;
-    flex-direction: row; /* Ensure image is on the left and text is on the right */
     align-items: center;
+    justify-content: flex-start;
 }
 
 @media (max-width: 900px) {
     .about__content {
-        flex-direction: column; /* Stack vertically for small screens */
+        flex-direction: column; /* Stack vertically for smaller screens */
         align-items: center;
+    }
+
+    .about__photo-container {
+        margin-right: 0; /* Remove the gap on smaller screens */
+        margin-bottom: 1rem; /* Add a small bottom margin for spacing */
+    }
+
+    .about__text {
+        width: 100%;
     }
 }
 
 .about__photo-container {
-    flex: 0 0 25%; /* Occupy 25% of the container width */
-    display: flex;
-    justify-content: center; /* Center the image horizontally */
-    margin-right: var(--gutter-huge); /* Add space between image and text */
+    flex: 0 0 25%; /* 25% of the width for the image */
+    margin-right: 5%; /* 5% gap between the image and the text */
 }
 
 .about__photo {
@@ -568,7 +575,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .about__text {
-    flex: 0 0 75%; /* Occupy 75% of the container width */
+    flex: 0 0 70%; /* Occupy 75% of the container width */
 }
 
 .notice {
