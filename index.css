@@ -339,8 +339,8 @@ body:not(.user-is-tabbing) a:focus {
 .nav {
     display: flex;
     justify-content: flex-end;
-    padding: var(--gutter-normal) 0;
-	width: 90%;
+    padding: var(--gutter-normal) 10;
+	width: 100%;
 	background-color: black;
 	position: fixed;
 }
