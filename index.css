@@ -540,50 +540,43 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__content {
     display: flex;
-    flex-direction: row-reverse;
     align-items: center;
 }
 
-@media(max-width: 900px) {
+@media (max-width: 900px) {
     .about__content {
-        flex-direction: column-reverse;
-        align-items: initial;
+        flex-direction: column;
+        align-items: center;
     }
-}
-
-.about__photo {
-    width: 200px; /* Adjust width as needed */
-    height: 200px; /* Adjust height as needed */
-    object-fit: cover; /* Ensure the image is properly fitted within the dimensions */
-    border-radius: 50%; /* Make the image round */
 }
 
 .about__photo-container {
-    flex: 0 0 25%; /* Take 25% of the space */
-    margin-bottom: var(--gutter-normal);
+    flex: 0 0 25%; /* 25% of the container width */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    margin-right: var(--gutter-huge); /* Adjust spacing between image and text */
+}
+
+.about__photo {
+    width: 100%; /* Make the image take the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image round */
 }
 
 .about__text {
-    flex: 0 0 75%; /* Take 75% of the space */
+    flex: 0 0 75%; /* 75% of the container width */
 }
 
+.notice {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    padding: 10px;
+}
 
-@media(min-width: 901px) {
-    .about__text {
-        flex: 0 0 75%;
-    }
-
-    .notice {
-        font-weight: bold; /* Make the text bold */
-        color: black; /* Set the text color to black */
-        background-color: white; /* Set the background color to white */
-        padding: 10px; /* Optional: Add padding for better readability */
-    }
-    
-
+@media (min-width: 901px) {
     .about__photo-container {
-        flex: 1;
-        margin: 0 var(--gutter-huge) 0 0;
+        margin-right: var(--gutter-huge); /* Ensure spacing on larger screens */
     }
 }
 
