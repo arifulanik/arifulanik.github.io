@@ -564,8 +564,16 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(min-width: 901px) {
     .about__text {
-        flex: 0 0 55%;
+        flex: 0 0 75%;
     }
+
+    .notice {
+        font-weight: bold; /* Make the text bold */
+        color: black; /* Set the text color to black */
+        background-color: white; /* Set the background color to white */
+        padding: 10px; /* Optional: Add padding for better readability */
+    }
+    
 
     .about__photo-container {
         flex: 1;
