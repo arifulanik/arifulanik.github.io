@@ -338,11 +338,14 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center; /* Center the navigation items */
     padding: var(--gutter-normal) 0;
-	width: 80%;
-	background-color: black;
-	position: fixed;
+    width: 80%; /* Set the width to 80% */
+    background-color: black;
+    position: fixed;
+    top: 0; /* Stick it to the top */
+    left: 50%; /* Start the navbar from the center of the screen */
+    transform: translateX(-50%); /* Center it horizontally */
 }
 
 .nav__items {
