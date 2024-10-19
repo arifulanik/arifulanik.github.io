@@ -340,7 +340,7 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     justify-content: center; /* Center the navigation items */
     padding: var(--gutter-normal) 0;
-    width: 80%; /* Set the width to 80% */
+    width: 100%; /* Set the width to 80% */
     background-color: white;
     position: fixed;
     top: 0; /* Stick it to the top */
