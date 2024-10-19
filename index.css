@@ -70,9 +70,9 @@ body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
-    color: var(--white-1);
+    color: var(--black);
     line-height: var(--line-height-normal);
-    background: var(--black);
+    background: var(--white);
     overflow-x: hidden;
 }
 
@@ -592,8 +592,8 @@ body:not(.user-is-tabbing) a:focus {
 
 .notice {
     font-weight: bold;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
     padding: 10px;
     border-radius: 10px;
 }
