@@ -189,7 +189,7 @@ p {
 /* --------------------------------------- */
 
 a {
-    color: var(--white);
+    color: var(--black);
     font-weight: 400;
     font-family: 'Jost', sans-serif;
     transition: all .2s;
@@ -277,7 +277,7 @@ body:not(.user-is-tabbing) a:focus {
     top: 0;
     left: 0;
     right: 100%;
-    background: var(--white);
+    background: var(--black);
     height: 100%;
     z-index: -1;
     transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
@@ -341,7 +341,7 @@ body:not(.user-is-tabbing) a:focus {
     justify-content: center; /* Center the navigation items */
     padding: var(--gutter-normal) 0;
     width: 80%; /* Set the width to 80% */
-    background-color: black;
+    background-color: white;
     position: fixed;
     top: 0; /* Stick it to the top */
     left: 50%; /* Start the navbar from the center of the screen */
@@ -392,7 +392,7 @@ body:not(.user-is-tabbing) a:focus {
     right: 100%;
     display: inline-block;
     height: 1rem;
-    background: var(--white);
+    background: var(--black);
     transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
 }
 
@@ -411,7 +411,7 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4));
+    background: linear-gradient(rgba(15, 125, 114, 0.1), rgba(45, 228, 222, 0.4));
     height: 10vh;
     background-size: cover;
     background-position: center;
