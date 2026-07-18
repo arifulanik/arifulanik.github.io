@@ -1,189 +1,157 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Md. Ariful Islam
+  label: Software Engineer
+  email: arifulislamcsecuet@gmail.com
+  location: Muradnagar, Cumilla, Bangladesh
+  summary: Software Engineer specializing in GPU-accelerated computing (CUDA C++) and applied Large Language Models (LLMs), with experience in real-time computer vision, high-performance computing, and Retrieval-Augmented Generation (RAG) systems.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: arifulanik
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: arifulislam1652
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Chittagong University of Engineering and Technology (CUET)
+        location: Chittagong, Bangladesh
+        area: Computer Science and Engineering
+        studyType: B.Sc.
+        start_date: 2018-01
+        end_date: 2023-07
+        score: "3.21/4.00"
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: TranSenA: A Transformer-based Framework for Sentiment Analysis of Restaurant Reviews"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Acote Group
+        position: Software Engineer (Contractual)
+        location: Dhaka, Bangladesh
+        start_date: 2026-01
+        end_date: 2026-05
         highlights:
-          - Relativity
-          - Description 2.
+          - Led the CUDA-based migration of a legacy DSP MRI image-reconstruction pipeline, re-engineering k-space-to-image conversion for parallel GPU execution.
+          - Architected integration between an NVIDIA Jetson Xavier NX-based DPC Command Server and the MRI spectrometer controller for low-latency processing and real-time image rendering.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Frontier Semiconductor Metrology (FSM) Bangladesh Ltd.
+        position: Software Engineer
+        location: Dhaka, Bangladesh
+        start_date: 2023-06
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
+          - Engineered CUDA C++ algorithms for wafer surface roughness computation, reducing processing time from 8 minutes to 9 seconds using White Light Interference technology and Basler machine-vision cameras.
+          - Built computer vision and OCR-based wafer ID recognition systems for automated traceability across manufacturing pipelines.
+          - Developed customized stress-measurement solutions for film-deposited wafers for Sony, Japan, using 650nm and 780nm laser metrology.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: SELISE Digital Platforms
+        position: Software Engineer Intern
+        location: Dhaka, Bangladesh
+        start_date: 2022-10
+        end_date: 2022-11
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Designed and developed a full-stack e-commerce platform using Angular, Node.js, and MongoDB.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+    Research Experience:
+      - company: CUET NLP Lab
+        position: Research Assistant
+        location: Chittagong, Bangladesh
+        start_date: 2024-07
+        end_date: present
+        highlights:
+          - Optimizing RAG-based LLM systems for faster, more secure inference over multimodal embeddings and vision-language models.
+          - Investigating cross-modal gender bias in hate-speech classification to improve fairness and transparency in vision-language models.
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Hardware-Accelerated Auto Focus
+        summary: Designed a hardware-accelerated autofocus system for real-time image processing and focus optimization using NVIDIA Jetson Orin NX, CUDA C++, and a Basler camera.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Synchronized camera acquisition with motor-controller Z-axis traversal for automated focus sweeps.
+          - Built a client-server architecture to coordinate autofocus commands from FSM's RAFT software with camera-motor operations.
+          - Optimized CUDA C++ kernels with edge-based sharpness metrics for low-latency focal-position determination.
+        start_date: 2026-01
+        end_date: 2026-05
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Wafer Surface Topography
+        summary: CUDA C++ image processing for embedded high-performance systems.
+        highlights:
+          - Integrated high-speed machine-vision cameras for real-time, high-volume image processing on embedded HPC systems.
+          - Parallelized image-processing routines using CUDA C++ and developed batch processing to resolve memory-overflow issues with high-resolution imagery.
+        start_date: 2024-09
+        end_date: present
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: GPU-Accelerated MRI Image Reconstruction
+        summary: Migrating a legacy DSP-based MRI reconstruction pipeline to CUDA-based parallel processing for k-space-to-image conversion.
+        highlights:
+          - Integrating a Jetson Xavier NX DPC Command Server with the MRI spectrometer controller for real-time processing and image rendering.
+        start_date: 2026-01
+        end_date: 2026-05
+
+      - name: RAG-Based LLM Chat Bot
+        summary: Desktop application for document-grounded question answering using Retrieval-Augmented Generation and a large language model.
+        highlights:
+          - Added conversational memory for multi-turn sessions and PDF upload for document-grounded responses.
+          - Ongoing optimization for faster, more secure response generation.
+        start_date: 2025-07
+        end_date: present
+
+      - name: Wafer ID Detection
+        summary: CNN-based pattern recognition for semi-font wafer IDs.
+        highlights:
+          - Captured real-time wafer images using a high-speed Basler machine-vision camera.
+        start_date: 2024-02
+        end_date: 2024-08
+
+    Publications:
+      - title: "TranSenA: A Transformer-based Framework for Sentiment Analysis of Restaurant Reviews"
+        authors:
+          - Md. Ariful Islam
+          - Shawly Ahsan
+          - Mohammed Moshiul Hoque
+        publisher: IEEE International Conference on Signal Processing, Information, Communication & Systems (SPICSCON)
+        releaseDate: 2024
+
+    Technical Skills:
+      - name: GPU and HPC
+        keywords: CUDA C++, GPGPU programming, real-time parallel image processing, kernel optimization
+      - name: AI and LLM
+        keywords: Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), multimodal embeddings, vision-language models, conversational AI
+      - name: Machine Learning and Computer Vision
+        keywords: Machine Learning, Deep Learning, Computer Vision, OpenCV, TensorFlow, Keras
+      - name: Languages and Tools
+        keywords: C, C++, Python, Git, MongoDB, HTML/CSS, MFC
+      - name: Data and Libraries
+        keywords: Pandas, Matplotlib, NumPy
+
+    Honors and Test Scores:
+      - name: International Collegiate Programming Contest (ICPC)
+        date: 2022
+        issuer: ICPC Foundation
+      - name: National Collegiate Programming Contest (NCPC)
+        date: 2020
+        issuer: Bangladesh Computer Council
+      - name: HSC General Scholarship Award
+        date: 2017
+        issuer: Board of Intermediate and Secondary Education, Dhaka
+      - name: SSC General Scholarship Award
+        date: 2015
+        issuer: Board of Intermediate and Secondary Education, Cumilla
+      - name: GRE
+        date: 2024-09
+        summary: "309 (Quant: 161, Verbal: 148, AWA: 3.0)"
+      - name: IELTS
+        date: 2024-11
+        summary: "7.0 (L: 7.5, R: 7.5, S: 6.5, W: 6.0)"
+
+    Leadership and Volunteer Experience:
+      - company: Computer Club, CUET
+        position: Programming Coordinator
+        start_date: 2021
+        end_date: 2023
+        highlights:
+          - Taught advanced data structures, number theory, and algorithms; organized contests and coordinated competitive programming teams.
+      - company: Greater Cumilla Student Welfare Association
+        position: Member
+        start_date: 2018
+        end_date: present
+        highlights:
+          - Served as a student representative liaising with academia and assisted medical fundraising for critically ill students.
