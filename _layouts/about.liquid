@@ -1,0 +1,61 @@
+---
+layout: default
+---
+<style>
+  .about-grid { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 4rem; align-items: start; max-width: 980px; margin: 2.25rem auto 0; }
+  .about-sidebar { font-size: 0.9rem; color: var(--global-text-color); }
+  .about-sidebar .about-photo img { width: 170px; height: 170px; object-fit: cover; border-radius: 50%; border: 1px solid var(--global-theme-color); box-shadow: none; }
+  .about-sidebar .more-info { margin-top: 0.8rem; }
+  .about-sidebar .more-info p { margin: 0 0 0.45rem; line-height: 1.4; }
+  .about-sidebar .more-info strong { font-size: 1.05rem; }
+  .about-contact { list-style: none; padding: 0; margin: 1.2rem 0 0; }
+  .about-contact li { margin: 0.62rem 0; }
+  .about-contact i { width: 1.25rem; text-align: center; margin-right: 0.35rem; }
+  .about-main { min-width: 0; font-size: 1.05rem; line-height: 1.55; }
+  .about-main h2 { margin-top: 0; font-weight: 600; }
+  @media (max-width: 700px) { .about-grid { grid-template-columns: 1fr; gap: 1.5rem; margin-top: 1.5rem; } .about-sidebar .about-photo img { width: 150px; height: 150px; } }
+</style>
+
+<div class="post">
+  <article>
+    {% if page.profile %}
+      <div class="about-grid">
+      <aside class="about-sidebar">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+          <div class="about-photo">{% include figure.liquid loading="eager" path=profile_image_path class="img-fluid" sizes=sizes alt=page.profile.image cache_bust=true %}</div>
+        {% endif %}
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+        <ul class="about-contact">
+          <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i>Muradnagar, Cumilla</li>
+          <li><a href="mailto:{{ site.data.socials.email }}"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a></li>
+          <li><a href="https://github.com/{{ site.data.socials.github_username }}" rel="noopener" target="_blank"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" rel="noopener" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
+          <li><a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}&amp;hl=en" rel="noopener" target="_blank"><i class="ai ai-google-scholar" aria-hidden="true"></i>Google Scholar</a></li>
+        </ul>
+      </aside>
+      <main class="about-main">{{ content }}</main>
+      </div>
+    {% else %}
+      {{ content }}
+    {% endif %}
+
+    {% if page.announcements and page.announcements.enabled %}
+      <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a></h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+    {% if page.latest_posts and page.latest_posts.enabled %}
+      <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a></h2>
+      {% include latest_posts.liquid limit=true %}
+    {% endif %}
+
+    {% if page.selected_papers %}
+      <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a></h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+  </article>
+</div>

@@ -5,16 +5,20 @@ permalink: /
 subtitle: Software Engineer | GPU-Accelerated Computing & Applied Large Language Models
 
 profile:
-  align: right
+  align: left
   image: WIN_20260703_12_20_09_Pro.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: true
   more_info: >
-    <p>Muradnagar, Cumilla, Bangladesh</p>
-    <p><a href="mailto:arifulislamcsecuet@gmail.com">arifulislamcsecuet@gmail.com</a></p>
-    <p>+880 1630-826924</p>
+    <p><strong>Md. Ariful Islam</strong></p>
+    <p>Software Engineer focused on GPU-accelerated computing and applied large language models.</p>
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Muradnagar, Cumilla</p>
+    <p><a href="mailto:arifulislamcsecuet@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a></p>
+    <p><a href="https://github.com/arifulanik" rel="noopener" target="_blank"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></p>
+    <p><a href="https://www.linkedin.com/in/arifulislam1652" rel="noopener" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></p>
+    <p><a href="https://scholar.google.com/citations?user=09EAkGoAAAAJ&amp;hl=en" rel="noopener" target="_blank"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false
 
 announcements:
   enabled: false
@@ -27,8 +31,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+## Hello, this is Ariful.
+
 I am Md. Ariful Islam, a software engineer specializing in GPU-accelerated computing with CUDA C++ and applied large language models. My work spans real-time computer vision, high-performance computing, and Retrieval-Augmented Generation (RAG) systems.
 
 At Frontier Semiconductor Metrology, I develop GPU-accelerated algorithms and vision systems for semiconductor metrology. My experience also includes CUDA-based MRI image reconstruction, embedded NVIDIA Jetson systems, wafer identification, multimodal LLM research, and vision-language-model fairness.
 
 I am currently a Research Assistant at the CUET NLP Lab, where I work on more efficient and secure RAG systems and study cross-modal gender bias in hate-speech classification.
+
+**Contact:** [arifulislamcsecuet@gmail.com](mailto:arifulislamcsecuet@gmail.com)
+
+**My latest:** [Resume](/assets/pdf/Ariful_Islam_Resume.pdf)
