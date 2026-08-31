@@ -11,11 +11,6 @@ profile:
   more_info: >
     <p><strong>Md. Ariful Islam</strong></p>
     <p>Software Engineer focused on GPU-accelerated computing and applied large language models.</p>
-    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Muradnagar, Cumilla</p>
-    <p><a href="mailto:arifulislamcsecuet@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a></p>
-    <p><a href="https://github.com/arifulanik" rel="noopener" target="_blank"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></p>
-    <p><a href="https://www.linkedin.com/in/arifulislam1652" rel="noopener" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></p>
-    <p><a href="https://scholar.google.com/citations?user=09EAkGoAAAAJ&amp;hl=en" rel="noopener" target="_blank"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false
